@@ -1,6 +1,5 @@
-.header-conteiner{
-  display: flex;
-  list-style-type: none;
+.header{
+ background: url(./img/header-img.gif);
 }
 
 
