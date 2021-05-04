@@ -4,102 +4,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Smoothies</title>
 </head>
 <body>
   <header class="header">
-    <div class="header-container">
-      <div class="header-top">
-       <nav>
-         <ul>
-           <li><a href="#">Shop</a></li>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Story</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Blog</a></li>
-           <li><a href="#">Testimonials</a></li>
+    <div class="header__container">
+      <div class="header__top">
+       <nav class="header__nav nav"> 
+         <ul class="nav__list">
+           <li class="nav_item"><a class="nav__link" href="#">Shop</a></li>
+           <li class="nav_item"><a class="nav__link" href="#">Home</a></li>
+           <li class="nav_item"><a class="nav__link" href="#">Story</a></li>
+           <li class="nav_item"><a class="nav__link" href="#">About</a></li>
+           <li class="nav_item"><a class="nav__link" href="#">Blog</a></li>
+           <li class="nav_item"><a class="nav__link" href="#">Testimonials</a></li>
          </ul>
        </nav>
-       <div class="logotip">
-         <a class="logo" href="#">
-         <img src="" alt="logotip">
-       </a>
+       <div class="header__logo logo">
+         <a class="logo__link" href="#">
+         <img class="logo__img" src="./img/Logo.png" alt="logotip">
+         </a>
        </div>
-       <div class="user-icon">
-         <ul>
-           <li><a href="#"><img src="" alt=""></a></li>
-           <li><a href="#"><img src="" alt=""></a></li>
-           <li><a href="#"><img src="" alt=""></a>
-           <span>0</span></li>
+       <div class="header__personal personal">
+         <ul class="personal__list">
+           <li class="personal__item"><a class="personal__link" href="#"><img class="personal__img" src="" alt=""></a></li>
+           <li class="personal__item"><a class="personal__link" href="#"><img class="personal__img" src="" alt=""></a></li>
+           <li class="personal__item"><a class="personal__link" href="#"><img class="personal__img" src="" alt=""></a>
+           <span class="personal__counter">0</span></li>
          </ul>
        </div>
-       <div class="social-icon">
-         <ul>
-           <li><a href=""><img src="" alt=""></a></li>
-           <li><a href=""><img src="" alt=""></a></li>
-           <li><a href=""><img src="" alt=""></a></li>
+       <div class="header__social social">
+         <ul class="social__list">
+           <li class="social__item"><a class="social__link" href=""><img class="social__img" src="" alt=""></a></li>
+           <li class="social__item"><a class="social__link" href=""><img class="social__img" src="" alt=""></a></li>
+           <li class="social__item"><a class="social__link" href=""><img class="social__img" src="" alt=""></a></li>
          </ul>
        </div>
      </div>
-     <div class="header-content">
-       <button>Shop now</button>
+     <div class="header__content contant">
+       <button class="contant__button">Shop now</button>
      </div>
     </div>
   </header>
   <!--what are the smoothies-->
-  <section class="what-is-smoohties">
-    <h2>What are there smoothies?</h2>
-    <p>A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional supplements. </p>
-    <div>
-      <div>
-        <img src="" alt="">
-        <span>Plant Based</span>
+  <section class="smoohties">
+    <h2 class="smoothies__title">What are there smoothies?</h2>
+    <p class="smoothies__paragraf">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional supplements. </p>
+    <div class="smoothies__features features">
+      <div class="features__plant plant">
+        <img class="plant__img" src="" alt="">
+        <span class="plant__span">Plant Based</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Vegan</span>
+      <div class="features__vegan vegan">
+        <img class="vegan__img" src="" alt="">
+        <span class="vegan__span">Vegan</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Paleo</span>
+      <div class="features__paleo paleo">
+        <img class="paleo__img" src="" alt="">
+        <span class="paleo__span">Paleo</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Gluten-Free</span>
+      <div class="features__gluten gluten">
+        <img class="gluten__img" src="" alt="">
+        <span class="gluten__span">Gluten-Free</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Com-Free</span>
+      <div class="features__corn corn">
+        <img class="corn__img" src="" alt="">
+        <span>Corn-Free</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Soy-Free</span>
+      <div class="features__soy soy">
+        <img class="soy__img" src="" alt="">
+        <span class="soy__span">Soy-Free</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Ayurvedic</span>
+      <div class="features__ayurvedic ayurvedic">
+        <img class="ayurvedic__img" src="" alt="">
+        <span class="ayurvedic__span">Ayurvedic</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Made Width Love</span>
+      <div class="features__width-love width-love">
+        <img class="width-love__img" src="" alt="">
+        <span class="width-love__span">Made Width Love</span>
       </div>
     </div>
   </section>
   <!--block about-->
   <section class="about">
-    <div class="about-container">
-      <h2 class="about_header">What makes Smoothie an awesome drink? </h2>
-    <ul class="about_items">
-      <li class="about_list"><a href="" class="about_link">Crunchy Puffs Texture</a></li>
-      <li class="about_list"><a href="" class="about_link">100 Calories per drink</a></li>
-      <li class="about_list"><a href="" class="about_link">4g Plant Protein </a></li>
-      <li class="about_list"><a href="" class="about_link">Good source of Magnesium & Vitamin B6</a></li>
-      <li class="about_list"><a href="" class="about_link">No Sugar in our Savory Flavors</a></li>
-      <li class="about_list"><a href="" class="about_link">Non-GMO, Vegan & Paleo</a></li>
-      <li class="about_list"><a href="" class="about_link">Gluten-Free & Grain-Free</a></li>
-      <li class="about_list"><a href="" class="about_link">Corn-Free & Soy-Free</a></li>
+    <div class="about__container">
+      <h2 class="about__title">What makes Smoothie an awesome drink? </h2>
+    <ul class="about__list">
+      <li class="about__item"><a href="" class="about__link">Crunchy Puffs Texture</a></li>
+      <li class="about__item"><a href="" class="about__link">100 Calories per drink</a></li>
+      <li class="about__item"><a href="" class="about__link">4g Plant Protein </a></li>
+      <li class="about__item"><a href="" class="about__link">Good source of Magnesium & Vitamin B6</a></li>
+      <li class="about__item"><a href="" class="about__link">No Sugar in our Savory Flavors</a></li>
+      <li class="about__item"><a href="" class="about__link">Non-GMO, Vegan & Paleo</a></li>
+      <li class="about__item"><a href="" class="about__link">Gluten-Free & Grain-Free</a></li>
+      <li class="about__item"><a href="" class="about__link">Corn-Free & Soy-Free</a></li>
     </ul>
-    <button class="about_button">About Organic Smoothie</button>
+    <button class="about__button">About Organic Smoothie</button>
     </div>
   </section>
-  
+  <!--block out story-->
+  <section class="out-stiry">
+    <h2></h2>
+    <p></p>
+    <button>Who we are</button>
+  </section>
+  <section class="testimonials-block">
+    <h2 class="testimoials-header"></h2>
+    <p class="testimonials_paragraf"></p>
+    
+  </section>
