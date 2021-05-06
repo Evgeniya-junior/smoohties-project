@@ -1,7 +1,7 @@
 .header-container{
  height: 1080px;
  background-size:1080px 1920px;
- background: url(./img/header-bg-img.jpg) no-repeat  top center;
+ background: url(../img/header-bg-img.jpg) no-repeat  top center;
 }
 .header-top{
  display: flex;
