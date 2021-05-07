@@ -1,9 +1,128 @@
-.header-container{
- height: 1080px;
- background-size:1080px 1920px;
- background: url(../img/header-bg-img.jpg) no-repeat  top center;
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Regular'), local('Muli-Regular'), url('Muliregular.woff2') format('woff2'), url('Muliregular.woff') format('woff'), url('Muliregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
-.header-top{
- display: flex;
- justify-content: space-between;
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli ExtraBold'), local('Muli-ExtraBold'), url('Muliextrabold.woff2') format('woff2'), url('Muliextrabold.woff') format('woff'), url('Muliextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold Italic'), local('Muli-BoldItalic'), url('Mulibolditalic.woff2') format('woff2'), url('Mulibolditalic.woff') format('woff'), url('Mulibolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli SemiBold Italic'), local('Muli-SemiBoldItalic'), url('Mulisemibolditalic.woff2') format('woff2'), url('Mulisemibolditalic.woff') format('woff'), url('Mulisemibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold'), local('Muli-Bold'), url('Mulibold.woff2') format('woff2'), url('Mulibold.woff') format('woff'), url('Mulibold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+.header__container{
+ background:url(../img/header-bg-img.jpg) no-repeat top center;
+  height: 1080px;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__content{
+  margin: 0 auto;
+}
+.features{
+  display:flex;
+}
+.about {
+  background-color:#14826f;
+}
+button{
+  width: 280px;
+  height: 70px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-weight: bold;
+  border-radius:35px;
+  line-height: 1.667;
+  text-align: left;
+  border-radius: 20;
+  -webkit-border-radius:35px;
+  -moz-border-radius:35px;
+  -ms-border-radius:35px;
+  -o-border-radius:35px;
+}
+.button--green{
+  background-color:rgb(10, 165, 102);
+}
+.smoohties__container{
+  margin:0 auto;
+}
+.item{
+  width:384px ;
+  height:384px ;
+}
+.paragraf {
+  font-size: 18px;
+  font-family: "Muli";
+  color: rgb(30, 30, 30);
+  line-height: 1.944;
+}
+.smoothies__paragraf{
+  text-align: center;
+  width: 915px;
+  height: 122px;
+}
+.story__paragraf{
+   text-align: left;
+  width: 511px;
+  height: 118px;
+}
+.blog__paragraf{
+ width: 472px;
+  height: 122px;
+   text-align: left;
+}
+
+.products__container{
+  display:flex;
+
+}
+.cart--brown{
+  background-color:#602e15;
+}
+.cart--green{
+  background-color:#14826f;
+}
+.cart--yellow{
+  background-color:#f5ae3e;
+}
+.cart--orange{
+  background-color: #c3491e;
+}
+.testimonials{
+  background-color:#6b2f18;
+}
+.story__container{
+   display:flex;
+}
+
+
+.gallery{
+  display:flex;
 }
