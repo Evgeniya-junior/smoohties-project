@@ -1,62 +1,163 @@
 
 @font-face {
-  font-family: 'Muli';
-  src: local('Muli Regular'), local('Muli-Regular'), url('Muliregular.woff2') format('woff2'), url('Muliregular.woff') format('woff'), url('Muliregular.ttf') format('truetype');
+  font-family: 'Muli Regular';
+  src: url("../fonts/Muli-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Muli';
-  src: local('Muli ExtraBold'), local('Muli-ExtraBold'), url('Muliextrabold.woff2') format('woff2'), url('Muliextrabold.woff') format('woff'), url('Muliextrabold.ttf') format('truetype');
+  font-family: 'Muli-Italic';
+  src: url("../fonts/Muli-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Muli-ExtraBold';
+  src: url("../fonts/Muli-ExtraBold.woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Muli';
-  src: local('Muli Bold Italic'), local('Muli-BoldItalic'), url('Mulibolditalic.woff2') format('woff2'), url('Mulibolditalic.woff') format('woff'), url('Mulibolditalic.ttf') format('truetype');
+  font-family: 'Muli-BoldItalic';
+  src: url("../fonts/Muli-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Muli';
-  src: local('Muli SemiBold Italic'), local('Muli-SemiBoldItalic'), url('Mulisemibolditalic.woff2') format('woff2'), url('Mulisemibolditalic.woff') format('woff'), url('Mulisemibolditalic.ttf') format('truetype');
+  font-family: 'Muli-SemiBold-Italic';
+  src: url("../fonts/Muli-Semi-BoldItalic.ttf");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Muli';
-  src: local('Muli Bold'), local('Muli-Bold'), url('Mulibold.woff2') format('woff2'), url('Mulibold.woff') format('woff'), url('Mulibold.ttf') format('truetype');
+  font-family: 'Muli Bold';
+  src: url("../fonts/Muli-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
-.header__container{
- background:url(../img/header-bg-img.jpg) no-repeat top center;
-  height: 1080px;
-  justify-content: space-around;
+* {
+    outline: solid 1px red;
+}
+html,
+body{
+  font-family: 'Muli Regular',sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul {
+  margin: 0px; 
+  padding: 0px; 
+  list-style: none;
+}
+.header{
+  height: 100vh;
+  background:url(../img/header-bg-img.jpg) no-repeat top center;
+  background-size: cover;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+}
+.header__top{ 
+ padding: 70px 100px 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav__list{
+  padding:0;
+  margin:0;
+  display: flex;
+
+}
+.nav__item{
+  margin-right: 35px;
+}
+.nav__item:last-child{
+  margin-right: 0;
+}
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Muli Bold";
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+  text-align: left;
+}
+.header__rigth-block{
+  width: 420px;
+  display: flex;
   align-items: center;
 }
-.header__top {
+.header__personal{
+  margin-right: 100px;
+}
+.personal__list{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+.personal__item{
+  margin-right: 45px;
+}
+.personal__item:last-child{
+  margin-right: 0px;
+}
+.personal__counter{
+  background-color: #fff;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  text-align:center;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+  color:black;
+
+}
+
+.social__list{
+  display: flex;
+}
+
+.social__item{
+  margin-right: 10px;
+}
+.social__item:last-child{
+  margin-right: 0px;
+}
+.social__img{
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1;
 }
 .header__content{
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-.features{
-  display:flex;
+.button--green{
+  background-color:rgb(10, 165, 102);
 }
+.button{
+  font-size: 24px;
+  font-family: 'Muli-ExtraBold',sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+  text-align: center;
+}
+
+/* block smoothies */
+
 .about {
   background-color:#14826f;
 }
 button{
   width: 280px;
   height: 70px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
   font-weight: bold;
   border-radius:35px;
   line-height: 1.667;
@@ -67,11 +168,9 @@ button{
   -ms-border-radius:35px;
   -o-border-radius:35px;
 }
-.button--green{
-  background-color:rgb(10, 165, 102);
-}
+
 .smoohties__container{
-  margin:0 auto;
+  color:#f7ae3b;
 }
 .item{
   width:384px ;
@@ -121,8 +220,6 @@ button{
 .story__container{
    display:flex;
 }
-
-
 .gallery{
   display:flex;
 }
