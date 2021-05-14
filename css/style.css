@@ -142,14 +142,23 @@ ul {
 }
 .button--green{
   background-color:rgb(10, 165, 102);
+  width: 280px;
+  height: 70px;
 }
 .button{
   font-size: 24px;
   font-family: 'Muli-ExtraBold',sans-serif;
   color: rgb(255, 255, 255);
+  padding: 15px 30px;
   line-height: 1.667;
   text-align: center;
+  border-radius:35px;
+  -webkit-border-radius:35px;
+  -moz-border-radius:35px;
+  -ms-border-radius:35px;
+  -o-border-radius:35px;
 }
+
 
 /* block smoothies */
 
@@ -187,7 +196,7 @@ ul {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
+  gap:0px;
 }
 .features__item{
   font-family: "Muli ExtraBold";
@@ -244,77 +253,63 @@ li.about__item:last-child{
   }
 
 .about__button{
-  font-family: 'Muli ExtraBold',sans-serif;
   font-size: 21px;
   background:#14826f;
   width: 380px;
-  padding: 15px 30px;
+ 
   text-align: left;
   line-height: 1.048;
   border: 1px solid rgb(247, 174, 59);
 }
-button{
-  width: 280px;
-  height: 70px;
-  font-weight: bold;
-  border-radius:35px;
-  line-height: 1.667;
-  text-align: left;
-  border-radius: 20;
-  -webkit-border-radius:35px;
-  -moz-border-radius:35px;
-  -ms-border-radius:35px;
-  -o-border-radius:35px;
-}
 
-.smoohties__container{
-  color:#f7ae3b;
-}
-.item{
-  width:384px ;
-  height:384px ;
-}
-.paragraf {
-  font-size: 18px;
-  font-family: "Muli";
-  color: rgb(30, 30, 30);
-  line-height: 1.944;
-}
-.smoothies__paragraf{
-  text-align: center;
-  width: 915px;
-  height: 122px;
-}
-.story__paragraf{
-   text-align: left;
-  width: 511px;
-  height: 118px;
-}
-.blog__paragraf{
- width: 472px;
-  height: 122px;
-   text-align: left;
-}
+/* products block */
 
 .products__container{
+  width: 100%;
+  font-size: 24px;
+  font-family: "Muli Regular";
+  color: rgb(255, 255, 255);
+  line-height: 0.917;
+  text-align: center;
   display:flex;
+  justify-content:center;
+  }
 
+.products__cart{
+  width:480px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.cart--brown{
+.cart--brown,
+.button--brown{
   background-color:#602e15;
 }
-.cart--green{
+.cart--green,
+.button--green{
   background-color:#14826f;
 }
-.cart--yellow{
+.cart--yellow,
+.button--yellow{
   background-color:#f5ae3e;
 }
-.cart--orange{
+.cart--orange,
+.button--orange{
   background-color: #c3491e;
 }
 .testimonials{
   background-color:#6b2f18;
 }
+.cart__button {
+  width: 200px;
+  margin-top:60px;
+  text-align:left;
+  border:1px solid #fff;
+}
+
+/* story block */
 .story__container{
    display:flex;
 }
