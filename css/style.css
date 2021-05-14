@@ -52,6 +52,7 @@ ul {
   padding: 0px; 
   list-style: none;
 }
+/* header block */
 .header{
   height: 100vh;
   background:url(../img/header-bg-img.jpg) no-repeat top center;
@@ -152,6 +153,57 @@ ul {
 
 /* block smoothies */
 
+.smoothies__container{
+ background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  font-family: "Muli ExtraBold",sans-serif;
+  font-size: 50px;
+  color: rgb(247, 174, 59);
+  line-height: 0.8;
+}
+.paragraf{
+  font-family:'Muli Regular';
+  font-size: 18px;
+  color: rgb(30, 30, 30);
+  line-height: 1.944;
+  }
+
+.smoothies__title{
+ text-align: center;
+ 
+}
+.smoothies__paragraf{
+  text-align: center;
+ width: 915px;
+ height: 122px;
+ margin: 0 auto;
+ margin-bottom: 75px;
+}
+.features {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.features__item{
+  font-family: "Muli ExtraBold";
+  font-size: 25px;
+  color: rgb(242, 97, 45);
+  text-align: center;
+  line-height: 1.6;
+  width: 210px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  }
+
+/* block about */
 .about {
   background-color:#14826f;
 }
