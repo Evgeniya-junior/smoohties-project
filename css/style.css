@@ -207,6 +207,52 @@ ul {
 .about {
   background-color:#14826f;
 }
+.about__container{
+  display: flex;
+  height: 780px;
+}
+.about__left{
+  width: 60%;
+}
+.about__contant{
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.about__title{
+  color:#fff;
+}
+span.title--green{
+  color:#ccff33;
+}
+ul.about__list{
+  list-style: url('../img/about-li-icon.png');
+  margin-bottom:40px;
+}
+li.about__item{
+  font-size: 21px;
+  font-family: "Muli ExtraBold";
+  color: rgb(255, 255, 255);
+  line-height: 1.048;
+  text-align: left;
+  margin-bottom:30px;
+  }
+li.about__item:last-child{
+    margin-bottom:0px;
+  }
+
+.about__button{
+  font-family: 'Muli ExtraBold',sans-serif;
+  font-size: 21px;
+  background:#14826f;
+  width: 380px;
+  padding: 15px 30px;
+  text-align: left;
+  line-height: 1.048;
+  border: 1px solid rgb(247, 174, 59);
+}
 button{
   width: 280px;
   height: 70px;
