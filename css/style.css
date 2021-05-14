@@ -288,7 +288,7 @@ li.about__item:last-child{
   background-color:#602e15;
 }
 .cart--green,
-.button--green{
+.products__button--green{
   background-color:#14826f;
 }
 .cart--yellow,
@@ -310,9 +310,32 @@ li.about__item:last-child{
 }
 
 /* story block */
-.story__container{
-   display:flex;
+.story{
+  padding: 120px 150px;
+  display: flex;
+  justify-content: center;
 }
+.story__container{
+  width: 1300px;
+  height: 600px;
+  display:flex;
+  justify-content: space-between;
+}
+.story__content{
+  display: flex;
+  flex-direction: column;
+  
+}
+.story__title {
+  font-size: 50px;
+  line-height: 0.8;
+  text-align: left;
+}
+.story__paragraf{
+  width: 550px;
+}
+
+/* block testimonials */
 .gallery{
   display:flex;
 }
