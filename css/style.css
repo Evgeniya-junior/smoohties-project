@@ -447,3 +447,12 @@ z-index: 98;
   color:black;
 }
 /* instagram block */
+.instagram__title{
+  text-align: center;
+}
+.instagram__gallery{
+  margin-top: 45px;
+  display: flex;
+}
+
+/* footer block */
