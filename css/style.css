@@ -344,28 +344,44 @@ li.about__item:last-child{
 }
 
 /* block testimonials */
-.testimoials{
+.testimoinals{
   background-color:#663333;
 }
 .testimonials__container {
+  position: relative;
   height:720px ;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
 }
-.testimoials__container:last-child{
+.testimonials__container:last-child{
   margin-bottom:0px;
 }
-.testimoials__title {
+/* .testimonials__braick-light{
+font-size: 200px;
+font-family: "Muli ExtraBold",sans-serif;
+color: rgba(82, 25, 5, 0.6);
+line-height: 0.2;
+text-align: center;
+z-index: 98;
+} */
+
+.testimonials__title {
   margin: 100px;
 }
-.testimoials__article{
+.testimonials__title--orange{
+  color:#cc6633;
+}
+.testimonials__article{
   margin-bottom: 100px;
   display: flex;
+  font-size: 18px;
+  line-height: 1.944;
 }
+
 .article__box{
-  width: 455px;
+  width: 495px;
   height: 130px;
   text-align:center;
   font-size: 18px;
@@ -375,6 +391,9 @@ li.about__item:last-child{
   align-items:center;
   color:#fff;
 }
+.article__quote{
+  padding: 20px;
+}
 .testimonials__arrows{
   width: 160px;
   display: flex;
@@ -383,11 +402,48 @@ li.about__item:last-child{
 .arrows__icon{
   background-color: #663333;
 }
-.Sarah_A {
-  font-size: 200px;
-  font-family: "Muli extraBold",sans-serif;
-  color: rgba(82, 25, 5, 0.6);
-  line-height: 0.2;
-  text-align: center;
-  z-index: 98;
+/* out blog block */
+.blog__container{
+  margin:100px 220px;
+  display: flex;
+  /* justify-content: space-between; */
 }
+.blog__title{
+  font-size: 50px;
+  font-family: "Muli ExtraBold";
+  color: rgb(247, 174, 59);
+  line-height: 0.8;
+  text-align: left;
+  }
+.left__img{
+    width: 555px;
+    height: 400px;
+  }
+.blog__article{
+  padding: 60px;
+  display: flex;
+  flex-grow: 2;
+  justify-content: start;
+  align-items: flex-end;
+  text-align: left;
+}
+.news__title{
+  font-size: 30px;
+  line-height: 1.333;
+  text-align: left;
+  color: rgb(242, 97, 45);
+  margin-bottom:0;
+}
+.news__data{
+  font-size: 16px;
+  line-height: 2.188;
+}
+.news__paragraf{
+  width:475px;
+  height: 130px;
+  margin: 45px 65px;
+}
+.news__link{
+  color:black;
+}
+/* instagram block */
