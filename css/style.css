@@ -161,12 +161,17 @@ ul {
 
 
 /* block smoothies */
-
+.smoothies {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
 .smoothies__container{
  background-color:#fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  
 }
 .title{
   font-family: "Muli ExtraBold",sans-serif;
@@ -230,8 +235,11 @@ ul {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .about__title{
   color:#fff;
+  line-height: 1.091;
+  font-size: 55px;
 }
 span.title--green{
   color:#ccff33;
@@ -336,6 +344,50 @@ li.about__item:last-child{
 }
 
 /* block testimonials */
-.gallery{
+.testimoials{
+  background-color:#663333;
+}
+.testimonials__container {
+  height:720px ;
   display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.testimoials__container:last-child{
+  margin-bottom:0px;
+}
+.testimoials__title {
+  margin: 100px;
+}
+.testimoials__article{
+  margin-bottom: 100px;
+  display: flex;
+}
+.article__box{
+  width: 455px;
+  height: 130px;
+  text-align:center;
+  font-size: 18px;
+  line-height: 1.944;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  color:#fff;
+}
+.testimonials__arrows{
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.arrows__icon{
+  background-color: #663333;
+}
+.Sarah_A {
+  font-size: 200px;
+  font-family: "Muli extraBold",sans-serif;
+  color: rgba(82, 25, 5, 0.6);
+  line-height: 0.2;
+  text-align: center;
+  z-index: 98;
 }
