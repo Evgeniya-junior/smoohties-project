@@ -1,0 +1,61 @@
+.cart__title {
+  margin-bottom: 10px;
+}
+
+.cart__value {
+  font-family: "Muli-Italic", sans-serif;
+  font-size: 20px;
+}
+
+.cart--green,
+.cart__button--green {
+  background-color: #14826f;
+}
+
+.cart__button--green:hover {
+  background-color: #28c2ad;
+}
+.cart__button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 65px;
+  text-align: left;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.cart__button::after {
+  content: "";
+  width: 30px;
+  height: 15px;
+  background-image: url('./../images/arrows-rigth.png');
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  right: 32px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.cart__button:hover::after {
+  transform: translateX(1rem);
+  -webkit-transform: translateX(1rem);
+  -moz-transform: translateX(1rem);
+  -ms-transform: translateX(1rem);
+  -o-transform: translateX(1rem);
+}
+.cart--brown {
+  background-color: #602e15;
+}
+
+.cart--yellow {
+  background-color: #f5ae3e;
+}
+
+.cart--orange {
+  background-color: #c3491e;
+}

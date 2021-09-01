@@ -1,0 +1,28 @@
+.article__box {
+  max-width: 495px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.944;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.article__quote {
+  z-index: 1;
+  transform: translateY(-7px);
+  line-height: 1.95;
+}
+
+.article__cite {
+  transform: translate(-16px, 5px);
+  color: #f5ae3e;
+}
+
+.article__img {
+  // transform: translate(0, -100px);
+  z-index: 1;
+  margin-left: 25px;
+}
