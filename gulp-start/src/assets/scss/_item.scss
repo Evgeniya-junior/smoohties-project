@@ -1,0 +1,12 @@
+.item__subtitle {
+  margin-top: 0.7em;
+}
+
+.item {
+  border-right: 3px solid red;
+  border-image: url("./../images/sm-line-1.png") 10 round round;
+}
+
+.item:nth-child(4n) {
+  border: none;
+}

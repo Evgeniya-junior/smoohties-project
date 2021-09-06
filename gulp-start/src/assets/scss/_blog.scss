@@ -1,0 +1,30 @@
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
+.blog__container {
+  max-width: 1200px;
+  margin: 100px 220px 170px 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog__left {
+  z-index: 1;
+}
+.blog__title {
+  font-size: 50px;
+  font-family: 'Muli-ExtraBold', sans-serif;
+  color: rgb(247, 174, 59);
+  line-height: 0.8;
+  text-align: left;
+}
+
+.blog__article {
+  display: flex;
+  align-self: flex-end;
+  flex-grow: 2;
+  position: relative;
+}
