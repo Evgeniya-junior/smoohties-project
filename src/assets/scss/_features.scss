@@ -8,16 +8,16 @@
   align-items: center;
   flex-wrap: wrap; */
   position: relative;
+  &__item {
+    font-family: 'Muli-Bold', sans-serif;
+    font-size: 23px;
+    color: rgb(242, 97, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
 }
 
-.features__item {
-  font-family: 'Muli-Bold', sans-serif;
-  font-size: 23px;
-  color: rgb(242, 97, 45);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-}

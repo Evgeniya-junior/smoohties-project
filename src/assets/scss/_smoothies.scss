@@ -2,38 +2,40 @@
 .smoothies {
   display: flex;
   justify-content: center;
-
+  
+  &__container {
+    padding: 10rem 0 11rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__title {
+    text-align: center;
+    //  letter-spacing: -0.9px;
+    margin: auto;
+  }
+  
+  &__paragraf {
+    max-width: 910px;
+    text-align: center;
+    margin: 42px 0 60px;
+  }
+  &__features{
+    &::after {
+      content: " ";
+      width: 100%;
+      height: 3px;
+      display: inline-block;
+      background-image: url("./../images/sm-line-4.png");
+      background-size: cover;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+    }
+  }
 }
 
-.smoothies__container {
-  padding: 10rem 0 11rem;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.smoothies__title {
-  text-align: center;
-  //  letter-spacing: -0.9px;
-  margin: auto;
-}
-
-.smoothies__paragraf {
-  max-width: 910px;
-  text-align: center;
-  margin: 42px 0 60px;
-}
- .smoothies__features::after {
-   content: " ";
-   width: 100%;
-   height: 3px;
-   display: inline-block;
-   background-image: url("./../images/sm-line-4.png");
-   background-size: cover;
-   position: absolute;
-   top: 50%;
-   left: 0;
-   right: 0;
- }

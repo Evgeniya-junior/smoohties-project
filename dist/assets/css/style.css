@@ -622,9 +622,6 @@ template {
 .personal__counter {
     position: absolute;
     top: 5px;
-}
-
-.personal__counter {
     background-color: #fff;
     display: inline-block;
     height: 15px;
@@ -702,6 +699,7 @@ template {
     height: 70px;
     line-height: 1.667;
     text-align: left;
+    margin: auto;
     border-radius: 3.5rem;
     -webkit-border-radius: 3.5rem;
     -moz-border-radius: 3.5rem;
@@ -719,10 +717,15 @@ template {
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
+    background-color: #0aa566;
+}
+
+.button:hover {
+    background-color: #4ce9aa;
 }
 
 .button--green {
-    background-color: #0aa566;
+    background-color: #14826f;
     margin: auto;
 }
 
@@ -851,10 +854,6 @@ template {
     position: relative;
 }
 
-.item__subtitle {
-    margin-top: 0.7em;
-}
-
 .item {
     border-right: 3px solid red;
     -o-border-image: url("./../images/sm-line-1.png") 10 round round;
@@ -863,6 +862,10 @@ template {
 
 .item:nth-child(4n) {
     border: none;
+}
+
+.item__subtitle {
+    margin-top: 0.7em;
 }
 
 .products__container {
@@ -916,13 +919,11 @@ template {
 }
 
 .story__content {
-  /* height: 370px; */
+    /* height: 370px; */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
 }
 
 .story__title {
@@ -932,16 +933,6 @@ template {
 
 .story__paragraf {
     width: 49vh;
-}
-
-.story__button {
-    width: 300px;
-    margin-top: 35px;
-    max-height: 55px;
-    margin-left: -3px;
-    line-height: 20px;
-    font-size: 20px;
-    padding-left: 35px;
 }
 
 .story__box-container {
@@ -973,47 +964,17 @@ template {
     font-size: 20px;
 }
 
-.cart--green,
-.cart__button--green {
+.cart--green {
     background-color: #14826f;
-}
-
-.cart__button--green:hover {
-    background-color: #28c2ad;
 }
 
 .cart__button {
     width: 200px;
     height: 60px;
-    font-size: 20px;
+    font-size: 21px;
     margin-top: 65px;
-    text-align: left;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     position: relative;
-}
-
-.cart__button::after {
-    content: "";
-    width: 30px;
-    height: 15px;
-    background-image: url("./../images/arrows-rigth.png");
-    background-size: cover;
-    display: inline-block;
-    position: absolute;
-    right: 32px;
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-}
-
-.cart__button:hover::after {
-    transform: translateX(1rem);
-    -webkit-transform: translateX(1rem);
-    -moz-transform: translateX(1rem);
-    -ms-transform: translateX(1rem);
-    -o-transform: translateX(1rem);
 }
 
 .cart--brown {
@@ -1043,7 +1004,7 @@ template {
     justify-content: space-evenly;
     -ms-flex-align: center;
     align-items: center;
-  /* padding-top: 30px; */
+    /* padding-top: 30px; */
 }
 
 .testimonials__container::before {
@@ -1490,6 +1451,14 @@ template {
     background-color: #28c2ad;
 }
 
+.about__button:hover::after {
+    transform: translate(50%);
+    -webkit-transform: translate(50%);
+    -moz-transform: translate(50%);
+    -ms-transform: translate(50%);
+    -o-transform: translate(50%);
+}
+
 .about__button::after {
     content: "";
     width: 30px;
@@ -1504,14 +1473,6 @@ template {
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-}
-
-.about__button:hover::after {
-    transform: translate(50%);
-    -webkit-transform: translate(50%);
-    -moz-transform: translate(50%);
-    -ms-transform: translate(50%);
-    -o-transform: translate(50%);
 }
 
 @media screen and (max-width: 1640px) {

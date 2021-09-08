@@ -7,70 +7,74 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  
+  &__top {
+    padding: 9rem;
+    position: relative;
+    transition: 0.8s;
+  }
+  
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  &__burger-button {
+    width: 50px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: none;
+    z-index: 9999;
+  }
+  
+  &__burger-button-img {
+    width: 100%;
+  
+  }
+  &__logo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      -webkit-transform: translate(-50%, -60%);
+      -moz-transform: translate(-50%, -60%);
+      -ms-transform: translate(-50%, -60%);
+      -o-transform: translate(-50%, -60%);
+  }
+  &__rigth-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  &__personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__personal{
+    &::after {
+      content: "";
+      display: inline-block;
+      background: url('./../images/header-line.png');
+      background-size: cover;
+      position: absolute;
+      top: 10px;
+      left: 48%;
+    }
+  }
+  &__social {
+    margin-left: 4px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
 }
 
-.header__top {
-  padding: 9rem;
-  position: relative;
-  transition: 0.8s;
-}
-
-.header__navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__burger-button {
-  width: 50px;
-  position: fixed;
-  top: 50px;
-  right: 50px;
-  display: none;
-  z-index: 9999;
-}
-
-.header__burger-button-img {
-  width: 100%;
-
-}
-.header__logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    -webkit-transform: translate(-50%, -60%);
-    -moz-transform: translate(-50%, -60%);
-    -ms-transform: translate(-50%, -60%);
-    -o-transform: translate(-50%, -60%);
-}
-.header__rigth-block {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.header__personal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header__personal::after {
-  content: "";
-  display: inline-block;
-  background: url('./../images/header-line.png');
-  background-size: cover;
-  position: absolute;
-  top: 10px;
-  left: 48%;
-}
-.header__social {
-  margin-left: 4px;
-}
-.header__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 20px;
-}
