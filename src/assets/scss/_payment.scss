@@ -1,9 +1,11 @@
 .payment{
   &__list {
     width: 250px;
-    // margin-right: 15px;
     display: flex;
     flex-wrap: wrap;
+    &:nth-child(7){
+      margin-bottom: 0px;
+    }
   }
   
   &__item {
@@ -12,5 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:nth-child(8){
+      margin-bottom: 0px;
+    }
   }
 }

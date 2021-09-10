@@ -22,7 +22,7 @@
   
   &__title {
     font-size: 52px;
-    color: #fff;
+    color: #f7ae3b;
     line-height: 1.136;
     position: relative;
     text-align: left;
@@ -39,12 +39,15 @@
     text-align: left;
     margin-bottom: 21px;
     letter-spacing: 0;
+    &:last-child{
+      margin-bottom:0px;
+    }
   }
   
   &__link {
     text-decoration: none;
     font-size: 21px;
-    color: rgb(255, 255, 255);
+    color: white;
     padding-left: 10px;
   }
   
@@ -54,43 +57,19 @@
   
   &__button {
     font-size: 21px;
-    background: #14826f;
+    background:#14826f;
     width: 380px;
     margin-top: 45px;
     padding-left: 25px;
     line-height: 1.048;
     border: 1px solid #f7ae3b;
+    margin-left: 0;
   }
-  
-  // &__button{
-  //   &:hover {
-  //     background-color: #28c2ad;
-  //     &::after {
-  //       transform: translate(50%);
-  //       -webkit-transform: translate(50%);
-  //       -moz-transform: translate(50%);
-  //       -ms-transform: translate(50%);
-  //       -o-transform: translate(50%);
-  //     }
-  //   }
-  // }
-  
-  // &__button{
-  //   &::after {
-  //     content: "";
-  //     width: 30px;
-  //     height: 15px;
-  //     display: inline-block;
-  //     background-image: url('./../images/arrows-rigth.png');
-  //     background-size: cover;
-  //     position: absolute;
-  //     right: 35px;
-  //     transition: 0.5s;
-  //     -webkit-transition: 0.2s;
-  //     -moz-transition: 0.2s;
-  //     -ms-transition: 0.2s;
-  //     -o-transition: 0.2s;
-  //   }
-  // }
-}
-
+  &__list{
+    list-style: url('./../images/about-li-icon.png');
+    margin-bottom:0px;
+    margin-top: 15px;
+    padding-left: 24px;
+    letter-spacing: 0;
+  }
+ }

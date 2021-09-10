@@ -1,134 +1,4 @@
 @charset "UTF-8";
-
-@font-face {
-    font-family: 'Muli-Regular';
-  src: url("../fonts/Muli-Regular.woff");
-}
-
-@font-face {
-    font-family: 'Muli-Italic';
-  src: url("../fonts/Muli-Italic.ttf");
-}
-
-@font-face {
-    font-family: 'Muli-ExtraBold';
-  src: url("../fonts/Muli-ExtraBold.woff");
-}
-
-@font-face {
-    font-family: 'Muli-BoldItalic';
-  src: url("../fonts/Muli-BoldItalic.ttf");
-}
-
-@font-face {
-    font-family: 'Muli-SemiBold-Italic';
-  src: url("../fonts/Muli-Semi-BoldItalic.ttf");
-}
-
-@font-face {
-    font-family: 'Muli-Bold';
-  src: url("../fonts/Muli-Bold.ttf");
-}
-
-* {
-    outline: solid 1px red;
-}
-
-html,
-body {
-    font-family: 'Muli-Regular',sans-serif;
-    font-size: 10px;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.img-adaptive {
-    max-width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    min-width: 500px;
-}
-
-.paragraf {
-    font-family: 'Muli-Regular',sans-serif;
-    font-size: 18px;
-    color: #1e1e1e;
-    line-height: 1.95;
-}
-
-.title {
-    font-family: 'Muli-ExtraBold',sans-serif;
-    font-size: 48px;
-    color: #f7ae3b;
-    line-height: 0.8;
-}
-
-/* block about */
-span.title--green {
-    color: #ccff33;
-    position: relative;
-}
-
-span.title--green::after {
-    content: "";
-    width: 100%;
-    height: 10px;
-    display: inline-block;
-    background: url("./../images/about-line.png");
-    background-size: cover;
-    position: absolute;
-    top: 60px;
-    left: 0px;
-}
-
-ul.about__list {
-    list-style: url("./../images/about-li-icon.png");
-    margin-bottom: 0px;
-    margin-top: 15px;
-    padding-left: 24px;
-    letter-spacing: 0;
-}
-
-li.about__item:last-child {
-    margin-bottom: 0px;
-}
-
-.inform__link {
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Muli-ExtraBold',sans-serif;
-    color: #663300;
-    line-height: 1.944;
-    text-align: left;
-}
-
-li.payment__item:nth-child(8),
-.payment__list:nth-child(7) {
-    margin-bottom: 0px;
-}
-
-[placeholder] {
-    font-size: 17px;
-    font-family: "Muli-Bold";
-    color: #6d450c;
-    line-height: 2.059;
-    padding: 15px;
-    padding-left: 50px;
-}
-
-[placeholder]::before {
-    content: url("./../images/letter-icon.png");
-    position: absolute;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -348,7 +218,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted black;
 }
 
 /**
@@ -474,13 +344,100 @@ template {
     display: none;
 }
 
+@font-face {
+    font-family: 'Muli-Regular';
+  src: url("../fonts/Muli-Regular.woff");
+}
+
+@font-face {
+    font-family: 'Muli-Italic';
+  src: url("../fonts/Muli-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'Muli-ExtraBold';
+  src: url("../fonts/Muli-ExtraBold.woff");
+}
+
+@font-face {
+    font-family: 'Muli-BoldItalic';
+  src: url("../fonts/Muli-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold-Italic';
+  src: url("../fonts/Muli-Semi-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: 'Muli-Bold';
+  src: url("../fonts/Muli-Bold.ttf");
+}
+
+* {
+    outline: solid 1px red;
+}
+
+html,
+body {
+    font-family: 'Muli-Regular',sans-serif;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.img-adaptive {
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-width: 500px;
+}
+
+.paragraf {
+    font-family: 'Muli-Regular',sans-serif;
+    font-size: 18px;
+    color: #1e1e1e;
+    line-height: 1.95;
+}
+
+.inform__link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Muli-ExtraBold',sans-serif;
+    color: #663300;
+    line-height: 1.944;
+    text-align: left;
+}
+
+[placeholder] {
+    font-size: 17px;
+    font-family: "Muli-Bold";
+    color: #6d450c;
+    line-height: 2.059;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+[placeholder]::before {
+    content: url("./../images/letter-icon.png");
+    position: absolute;
+}
+
 /* header block */
 .header {
     height: 1080px;
     background: url("./../images/header-bg-img.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: white;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -622,7 +579,7 @@ template {
 .personal__counter {
     position: absolute;
     top: 5px;
-    background-color: #fff;
+    background-color: white;
     display: inline-block;
     height: 15px;
     width: 15px;
@@ -651,7 +608,7 @@ template {
 .social__item {
     position: relative;
     margin-right: 10px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -660,7 +617,7 @@ template {
 }
 
 .social__link {
-    background-color: #fff;
+    background-color: white;
     display: inline-block;
     height: 33px;
     width: 33px;
@@ -792,7 +749,7 @@ template {
 
 .smoothies__container {
     padding: 10rem 0 11rem;
-    background-color: #fff;
+    background-color: white;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -983,7 +940,7 @@ template {
     height: 60px;
     font-size: 21px;
     margin-top: 65px;
-    border: 1px solid #ffffff;
+    border: 1px solid white;
     position: relative;
 }
 
@@ -1345,7 +1302,7 @@ template {
 }
 
 .footer__link {
-    color: #fff;
+    color: white;
     font-size: 16px;
     font-family: "Muli-Bold";
     line-height: 2.5;
@@ -1376,6 +1333,10 @@ template {
     flex-wrap: wrap;
 }
 
+.payment__list:nth-child(7) {
+    margin-bottom: 0px;
+}
+
 .payment__item {
     margin-right: 16px;
     margin-bottom: 26px;
@@ -1385,6 +1346,10 @@ template {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.payment__item:nth-child(8) {
+    margin-bottom: 0px;
 }
 
 .about {
@@ -1436,6 +1401,10 @@ template {
     letter-spacing: 0;
 }
 
+.about__item:last-child {
+    margin-bottom: 0px;
+}
+
 .about__link {
     text-decoration: none;
     font-size: 21px;
@@ -1455,6 +1424,39 @@ template {
     padding-left: 25px;
     line-height: 1.048;
     border: 1px solid #f7ae3b;
+    margin-left: 0;
+}
+
+.about__list {
+    list-style: url("./../images/about-li-icon.png");
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-left: 24px;
+    letter-spacing: 0;
+}
+
+.title {
+    font-family: 'Muli-ExtraBold',sans-serif;
+    font-size: 48px;
+    color: #f7ae3b;
+    line-height: 0.8;
+}
+
+.title--green {
+    color: #ccff33;
+    position: relative;
+}
+
+.title--green::after {
+    content: "";
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    background: url("./../images/about-line.png");
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 0px;
 }
 
 @media screen and (max-width: 1640px) {
@@ -2194,7 +2196,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted black;
 }
 
 /**
@@ -2319,3 +2321,4 @@ template {
 [hidden] {
     display: none;
 }
+

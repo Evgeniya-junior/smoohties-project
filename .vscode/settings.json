@@ -1,4 +1,4 @@
 {
     "git.ignoreLimitWarning": true,
-    "liveServer.settings.multiRootWorkspaceName": "gulp-start"
+    "liveServer.settings.multiRootWorkspaceName": "dist"
 }

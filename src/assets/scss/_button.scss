@@ -1,18 +1,18 @@
 .button {
   font-size: 2.4rem;
   font-family: 'Muli-ExtraBold', sans-serif;
-  color: rgb(255, 255, 255);
+  color:$textColor;
   padding: 0 3.5rem;
   width: 280px;
   height: 70px;
   line-height: 1.667;
   text-align: left;
   margin: auto;
-  border-radius: 3.5rem;
-  -webkit-border-radius: 3.5rem;
-  -moz-border-radius: 3.5rem;
-  -ms-border-radius: 3.5rem;
-  -o-border-radius: 3.5rem;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
   background-color: rgb(10, 165, 102);
-  &::after {
+  &::after{
     content: " ";
     width: 30px;
     height: 15px;
@@ -37,7 +37,8 @@
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-  }
+  } 
+
   &:hover{
   background-color: #4ce9aa;
   &::after {
@@ -53,7 +54,7 @@
   margin: auto;
   &:hover{
   background-color: #4db48b;
-  color: white;
+  color: $textColor;
 }
 }
 &--yellow {

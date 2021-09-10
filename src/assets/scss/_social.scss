@@ -10,7 +10,7 @@
   &__item {
     position: relative;
     margin-right: 10px;
-    background-color: #fff;
+    background-color: $textColor;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -19,7 +19,7 @@
   }
   
   &__link {
-    background-color: #fff;
+    background-color: $textColor;
     display: inline-block;
     height: 33px;
     width: 33px;

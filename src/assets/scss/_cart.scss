@@ -12,41 +12,15 @@
     background-color: #14826f;
   }
   
-  // &__button--green:hover {
-  //   background-color: #28c2ad;
-  // }
   &__button {
     width: 200px;
     height: 60px;
     font-size: 21px;
     margin-top: 65px;
-    border: 1px solid #ffffff;
+    border: 1px solid $textColor;
     position: relative;
   }
   
-  // &__button::after {
-  //   content: "";
-  //   width: 30px;
-  //   height: 15px;
-  //   background-image: url('./../images/arrows-rigth.png');
-  //   background-size: cover;
-  //   display: inline-block;
-  //   position: absolute;
-  //   right: 32px;
-  //   transition: 0.2s;
-  //   -webkit-transition: 0.2s;
-  //   -moz-transition: 0.2s;
-  //   -ms-transition: 0.2s;
-  //   -o-transition: 0.2s;
-  // }
-  
-  // &__button:hover::after {
-  //   transform: translateX(1rem);
-  //   -webkit-transform: translateX(1rem);
-  //   -moz-transform: translateX(1rem);
-  //   -ms-transform: translateX(1rem);
-  //   -o-transform: translateX(1rem);
-  // }
   &--brown {
     background-color: #602e15;
   }
