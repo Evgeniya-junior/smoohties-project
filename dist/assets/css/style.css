@@ -657,11 +657,11 @@ ul {
     line-height: 1.667;
     text-align: left;
     margin: auto;
-    border-radius: 3.5rem;
-    -webkit-border-radius: 3.5rem;
-    -moz-border-radius: 3.5rem;
-    -ms-border-radius: 3.5rem;
-    -o-border-radius: 3.5rem;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -1029,7 +1029,7 @@ ul {
     flex-direction: column;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff;
+    color: white;
     padding-top: 60px;
 }
 
@@ -1382,7 +1382,7 @@ ul {
 
 .about__title {
     font-size: 52px;
-    color: #fff;
+    color: #f7ae3b;
     line-height: 1.136;
     position: relative;
     text-align: left;
@@ -1443,7 +1443,7 @@ ul {
 }
 
 .title--green {
-    color: #ccff33;
+    color: #a5d80c;
     position: relative;
 }
 
