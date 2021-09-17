@@ -1,5 +1,17 @@
 $textColor:white;
 $titleColor:#f7ae3b;
 $aboutColor:#14826f;
+$headBntColor:#0aa566;
 
 $borderRadius: 35px;
+
+%psevdoElem{
+    content: " ";
+    display: inline-block;
+    background-size: cover;
+}
+%text{
+    font-family:'Muli-Regular',sans-serif;
+    font-size: 18px;
+    color: rgb(30, 30, 30);
+}

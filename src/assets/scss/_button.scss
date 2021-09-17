@@ -22,14 +22,12 @@
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
-  background-color: rgb(10, 165, 102);
+  background-color: $headBntColor;
   &::after{
-    content: " ";
+    @extend %psevdoElem;
     width: 30px;
     height: 15px;
-    display: inline-block;
     background-image: url("./../images/arrows-rigth.png");
-    background-size: cover;
     position: absolute;
     right: 3.5rem;
     transition: 0.2s;
@@ -40,7 +38,7 @@
   } 
 
   &:hover{
-  background-color: #4ce9aa;
+  background-color: lighten($headBntColor,10%);
   &::after {
     transform: translateX(1rem);
     -webkit-transform: translateX(1rem);
@@ -59,22 +57,21 @@
 }
 &--yellow {
   background-color: #f5ae3e;
+  &:hover {
+    background-color: #f5c87f;
+  }
 }
 &--orange {
   background-color: #c3491e;
+  &:hover {
+    background-color: #c56f50;
+  }
 }
 &--brown {
   background-color: #602e15;
-}
-
-&--orange:hover {
-  background-color: #c56f50;
-}
-&--yellow:hover {
-  background-color: #f5c87f;
-}
-&--brown:hover {
-  background-color: #7e4d26;
+  &:hover {
+    background-color: #7e4d26;
+  }
 }
 }
 

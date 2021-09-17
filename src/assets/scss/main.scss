@@ -1,7 +1,6 @@
-@import './reset';
-@import './variables';
-
-
+@import './reset.scss';
+@import './variables.scss';
+@import './mixins.scss';
 * {
     outline: solid 1px red;
 }
@@ -26,8 +25,6 @@ ul {
 }
 
 
-
-
 [placeholder] {
   font-size: 17px;
   font-family: "Muli-Bold";
@@ -40,28 +37,36 @@ ul {
   content:url('./../images/letter-icon.png');
   position: absolute;
 }
-
-
+// общие стили
+@import './fonts.scss';
+@import './title.scss';
+@import './paragraf.scss';
+@import './button.scss';
+// стили для блоков
 @import './header.scss';
 @import './nav.scss';
 @import './personal.scss';
 @import './social.scss';
-@import './button.scss';
+
 @import './smoothies.scss';
 @import './features.scss';
 @import './item.scss';
+
+@import './about.scss';
 @import './products.scss';
-@import './story.scss';
 @import './cart.scss';
+@import './story.scss';
+
 @import './testimonials.scss';
 @import './article.scss';
-@import './blog.scss';
 @import './news.scss';
+@import './blog.scss';
+
 @import './instagram.scss';
 @import './gallery.scss';
 @import './footer.scss';
+@import './inform.scss';
 @import './payment.scss';
-@import './about.scss';
-@import './title.scss';
+
 
 @import './media.scss';

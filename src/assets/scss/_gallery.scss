@@ -9,15 +9,13 @@
   
   &__box{
     &::after {
-      content: " ";
-      width: 18px;
-      height: 18px;
-      display: inline-block;
+      @extend %psevdoElem;
+      width: 20px;
+      height: 20px;
       background-image: url(./../images/Instagram-footer.png);
-      background-size: cover;
       position: absolute;
-      right: 15px;
-      bottom: 15px;
+      right: 20px;
+      bottom: 20px;
     }
   }
 }

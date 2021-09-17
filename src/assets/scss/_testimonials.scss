@@ -13,12 +13,10 @@
   
   &__container{
     &::before {
-      content: " ";
+      @extend %psevdoElem;
       width: 410px;
       height: 300px;
-      display: inline-block;
       background-image: url("./../images/tesmo-dots.png");
-      background-size: cover;
       position: absolute;
       top: -81px;
       right: 49px;

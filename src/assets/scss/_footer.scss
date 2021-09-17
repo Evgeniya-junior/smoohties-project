@@ -21,13 +21,10 @@
   }
   
   &__title {
+    @include title('Muli-ExtraBold',48px,white);
     margin-top: 10px;
-    font-size: 26px;
-    font-family: 'Muli-ExtraBold', sans-serif;
-    color: $textColor;
     line-height: 0.9;
     text-align: left;
-    align-items: center;
   }
   &__subs {
     display: flex;
@@ -87,7 +84,7 @@
     align-self: center;
   }
   
-  &__buton {
+  &__button {
     min-width: 120px;
     min-height: 80px;
     position: fixed;

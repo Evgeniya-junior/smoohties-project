@@ -1,18 +1,14 @@
 .title{
-    font-family: 'Muli-ExtraBold',sans-serif;
-    font-size: 48px;
-    color: #f7ae3b;
+    @include title('Muli-ExtraBold',48px,#f7ae3b);
     line-height: 0.8;
     &--green{
     color:#a5d80c;
     position: relative;
     &::after{
-        content:"";
+        @extend %psevdoElem;
         width: 100%;
         height: 10px;
-        display: inline-block;
         background:url("./../images/about-line.png");
-        background-size:cover;
         position: absolute;
         top:60px;
         left:0px; }

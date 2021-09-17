@@ -8,10 +8,6 @@
      -o-transform: translate(0px, 90px);
    }
 
-   /* .about__left {
-     transform: scale(0.9);
-     transition: 0.5s;
-   } */
    .about-img {
      position: static;
    }
@@ -64,8 +60,7 @@
      align-self: flex-start;
      margin-bottom: 7vh;
    }
-
-   .about__left {
+  .about__left {
      width: 100%;
      display: flex;
      justify-content: center;

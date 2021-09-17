@@ -58,11 +58,13 @@
   &__personal{
     &::after {
       content: "";
+      width: 47px;
+      height: 2px;
       display: inline-block;
       background: url('./../images/header-line.png');
       background-size: cover;
       position: absolute;
-      top: 10px;
+      top: 15px;
       left: 48%;
     }
   }

@@ -1,0 +1,5 @@
+@mixin title($fontFamyli,$fontSize,$color:$titleColor){
+ font-family: $fontFamyli,sans-serif;
+ font-size:$fontSize;
+ color:$color;
+}

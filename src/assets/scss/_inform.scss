@@ -1,4 +1,5 @@
-.inform__link{
+.inform{
+  &__link{
     text-decoration: none;
     font-size: 18px;
     font-family: 'Muli-ExtraBold',sans-serif;
@@ -6,3 +7,4 @@
     line-height: 1.944;
     text-align: left;
   }
+}

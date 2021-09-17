@@ -1,12 +1,10 @@
 .news{
   &__container{
     &::before {
-      content: " ";
+      @extend %psevdoElem;
       width: 100%;
       height: 10px;
-      display: inline-block;
       background-image: url('./../images/blog-line.png');
-      background-size: cover;
       position: absolute;
       top: 0;
       left: 0;

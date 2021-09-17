@@ -1,6 +1,6 @@
 
 .about {
-  background-color: #14826f;
+  background-color: $aboutColor;
   
   &__container {
     display: flex;
@@ -22,7 +22,7 @@
   
   &__title {
     font-size: 52px;
-    color: #f7ae3b;
+    // color: #f7ae3b;
     line-height: 1.136;
     position: relative;
     text-align: left;
@@ -47,7 +47,7 @@
   &__link {
     text-decoration: none;
     font-size: 21px;
-    color: white;
+    color: $textColor;
     padding-left: 10px;
   }
   
@@ -57,7 +57,7 @@
   
   &__button {
     font-size: 21px;
-    background:#14826f;
+    background:$aboutColor;
     width: 380px;
     margin-top: 45px;
     padding-left: 25px;

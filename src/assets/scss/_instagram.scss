@@ -9,18 +9,11 @@
   
   &__title{
     &::before {
-      content: " ";
+      @extend %psevdoElem;
       width: 25px;
       height: 25px;
-      display: inline-block;
       margin-right: 16px;
       background-image: url('./../images/inst-block-icon.png');
-      background-size: cover;
-      transform: translate(5px, 5px);
-      -webkit-transform: translate(5px, 5px);
-      -moz-transform: translate(5px, 5px);
-      -ms-transform: translate(5px, 5px);
-      -o-transform: translate(5px, 5px);
     }
   }
   

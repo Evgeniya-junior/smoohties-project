@@ -16,11 +16,8 @@
   }
   
   &__content {
-    /* height: 370px; */
-    // margin-top: 97px;
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
   }
   
   &__title {
@@ -48,12 +45,10 @@
   
   &__box-container{
     &::before {
-      content: " ";
+      @extend %psevdoElem;
       width: 330px;
       height: 220px;
       background-image: url("../images/Stamp.png");
-      background-size: cover;
-      display: inline-block;
       position: absolute;
       top: 25px;
       left: -163px;
